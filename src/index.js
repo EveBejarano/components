@@ -44,7 +44,16 @@ const App = () => {
           textComment="Nice blog xp" 
           avatarImg={faker.image.avatar()} 
         />
-      </ApprovalCard>
+          </ApprovalCard>
+          <ApprovalCard>
+              <CommentDetail
+                  author="Fulana Ranja"
+                  timeAgo="Tomorrow at 2:00AM"
+                  textComment="The "Algarrobo cookies are so good""
+                  avatarImg={faker.image.avatar()}
+              />
+          </ApprovalCard>
+    
     </div>
   );
 };
