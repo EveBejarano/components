@@ -53,7 +53,14 @@ const App = () => {
                   avatarImg={faker.image.avatar()}
               />
           </ApprovalCard>
-    
+          <ApprovalCard>
+              <CommentDetail
+                  author="Mengana Ranja"
+                  timeAgo="Tomorrow at 2:00AM"
+                  textComment="No cookies"
+              avatarImg={faker.image.avatar()}
+              />
+          </ApprovalCard>
     </div>
   );
 };
